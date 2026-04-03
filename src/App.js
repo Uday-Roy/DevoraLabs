@@ -100,6 +100,11 @@ const Navbar = ({ isDark, toggleTheme }) => {
               onClick={(e) => scrollToSection(e, "#home", "home")}
               className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
             >
+              {/* <img
+                src="./logo.png"
+                alt="Devora Labs"
+                className="h-10 md:h-12"
+              /> */}
               Devora Labs
             </a>
           </div>
