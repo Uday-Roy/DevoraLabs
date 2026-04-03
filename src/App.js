@@ -172,7 +172,7 @@ const Hero = () => {
       setAnimatedTextIndex((prev) => (prev + 1) % animatedTexts.length);
     }, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [animatedTexts.length]);
 
   return (
     <section
@@ -814,25 +814,37 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-white transition-colors">
+              <a
+                href="www.github.com"
+                className="hover:text-white transition-colors"
+              >
                 <FaGithub
                   size={20}
                   className="hover:scale-110 transition-transform"
                 />
               </a>
-              <a href="#" className="hover:text-white transition-colors">
+              <a
+                href="www.twitter.com"
+                className="hover:text-white transition-colors"
+              >
                 <FaTwitter
                   size={20}
                   className="hover:scale-110 transition-transform"
                 />
               </a>
-              <a href="#" className="hover:text-white transition-colors">
+              <a
+                href="www.linkedin.com"
+                className="hover:text-white transition-colors"
+              >
                 <FaLinkedin
                   size={20}
                   className="hover:scale-110 transition-transform"
                 />
               </a>
-              <a href="#" className="hover:text-white transition-colors">
+              <a
+                href="www.instagram.com"
+                className="hover:text-white transition-colors"
+              >
                 <FaInstagram
                   size={20}
                   className="hover:scale-110 transition-transform"
