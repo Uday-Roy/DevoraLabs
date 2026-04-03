@@ -17,8 +17,6 @@ import {
   ArrowRight,
   CheckCircle,
   Star,
-  Smartphone,
-  Globe,
   Layout,
   Sparkles,
   School,
@@ -34,7 +32,6 @@ import {
   Phone,
   MapPin,
   ChevronRight,
-  ExternalLink,
 } from "lucide-react";
 
 // Theme Context
